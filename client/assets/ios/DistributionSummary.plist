@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Clarity.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>61434B4490B0F0C1EEC221FB8FA6FDB68DD771C1</string>
+				<key>dateExpires</key>
+				<string>1/7/19</string>
+				<key>type</key>
+				<string>iOS Development</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>MW9N4C945H.com.wcu.clarity</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>MW9N4C945H</string>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Clarity.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>63818803-7b91-4298-a24b-127347fe4134</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>MW9N4C945H</string>
+				<key>name</key>
+				<string>Joint Green Industries, INC</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
