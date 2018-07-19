@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Clarity.ipa</key>
+	<key>Dragon.ipa</key>
 	<array>
 		<dict>
 			<key>architectures</key>
@@ -22,18 +22,18 @@
 			<key>entitlements</key>
 			<dict>
 				<key>application-identifier</key>
-				<string>MW9N4C945H.com.wcu.clarity</string>
+				<string>MW9N4C945H.com.dragon.dragon</string>
 				<key>com.apple.developer.team-identifier</key>
 				<string>MW9N4C945H</string>
 				<key>get-task-allow</key>
 				<true/>
 			</dict>
 			<key>name</key>
-			<string>Clarity.app</string>
+			<string>Dragon.app</string>
 			<key>profile</key>
 			<dict>
 				<key>UUID</key>
-				<string>63818803-7b91-4298-a24b-127347fe4134</string>
+				<string>f5620cd0-7149-44f1-a374-853c3c2965d9</string>
 				<key>name</key>
 				<string>iOS Team Provisioning Profile: *</string>
 			</dict>

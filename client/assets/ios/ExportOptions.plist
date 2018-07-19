@@ -7,11 +7,11 @@
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://pacific-plateau-39424.herokuapp.com/assets/ios/Clarity.ipa</string>
+		<string>https://ddragon.herokuapp.com/assets/ios/Dragon.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://s3-us-west-2.amazonaws.com/claritymedia/icon.png</string>
+		<string>https://s3-us-west-2.amazonaws.com/claritymedia/dragonIcon.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://s3-us-west-2.amazonaws.com/claritymedia/icon.png</string>
+		<string>https://s3-us-west-2.amazonaws.com/claritymedia/dragonIcon.png</string>
 	</dict>
 	<key>method</key>
 	<string>development</string>

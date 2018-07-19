@@ -116,6 +116,30 @@ _userModel2.default.find({}).remove().then(function () {
     firstName: 'Jeremiah',
     email: 'Jeremiah@test.com',
     name: 'Jeremiah'
+  }, {
+    provider: 'local',
+    role: 'user',
+    username: 'TestUser1',
+    password: 'testuser1',
+    firstName: 'TestUser1',
+    email: 'user1@test.com',
+    name: 'TestUser1'
+  }, {
+    provider: 'local',
+    role: 'user',
+    username: 'TestUser2',
+    password: 'testuser2',
+    firstName: 'TestUser2',
+    email: 'user2@test.com',
+    name: 'TestUser2'
+  }, {
+    provider: 'local',
+    role: 'user',
+    username: 'TestUser3',
+    password: 'testuser3',
+    firstName: 'TestUser3',
+    email: 'user3@test.com',
+    name: 'TestUser3'
   }).then(function () {
     console.log('finished populating users');
   });
