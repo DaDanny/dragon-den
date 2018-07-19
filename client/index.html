@@ -28,21 +28,8 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <!-- build:css(client) app/vendor.css -->
-      <!-- bower:css -->
-      <link rel="stylesheet" href="bower_components/angular-loading-bar/build/loading-bar.css" />
-      <link rel="stylesheet" href="bower_components/angular-bootstrap-colorpicker/css/colorpicker.css" />
-      <link rel="stylesheet" href="bower_components/angular-material/angular-material.css" />
-      <link rel="stylesheet" href="bower_components/spectrum/spectrum.css" />
-      <link rel="stylesheet" href="bower_components/textAngular/dist/textAngular.css" />
-      <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:css({.tmp,client}) app/app.css -->
-      <link rel="stylesheet" href="app/app.css">
-      <!-- injector:css -->
-      <link rel="stylesheet" href="app/icomoon.css">
-      <!-- endinjector -->
-    <!-- endbuild -->
+    <link rel="stylesheet" href="app/vendor.32b28b40.css">
+    <link rel="stylesheet" href="app/app.d986743a.css">
 
 
   </head>
@@ -69,123 +56,8 @@
     <script src="bower_components/es5-shim/es5-shim.js"></script>
     <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
-    <!-- build:js({client,node_modules}) app/vendor.js -->
-      <!-- bower:js -->
-      <script src="bower_components/jquery/dist/jquery.js"></script>
-      <script src="bower_components/angular/angular.js"></script>
-      <script src="bower_components/angular-resource/angular-resource.js"></script>
-      <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-      <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-      <script src="bower_components/lodash/lodash.js"></script>
-      <script src="bower_components/angular-socket-io/socket.js"></script>
-      <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-      <script src="bower_components/angular-validation-match/dist/angular-validation-match.min.js"></script>
-      <script src="bower_components/moment/moment.js"></script>
-      <script src="bower_components/angular-moment/angular-moment.js"></script>
-      <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
-      <script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
-      <script src="bower_components/angular-bootstrap-colorpicker/js/bootstrap-colorpicker-module.js"></script>
-      <script src="bower_components/angular-animate/angular-animate.js"></script>
-      <script src="bower_components/angular-aria/angular-aria.js"></script>
-      <script src="bower_components/angular-messages/angular-messages.js"></script>
-      <script src="bower_components/angular-material/angular-material.js"></script>
-      <script src="bower_components/angular-elastic/elastic.js"></script>
-      <script src="bower_components/spectrum/spectrum.js"></script>
-      <script src="bower_components/angular-spectrum-colorpicker/dist/angular-spectrum-colorpicker.min.js"></script>
-      <script src="bower_components/rangy/rangy-core.js"></script>
-      <script src="bower_components/rangy/rangy-classapplier.js"></script>
-      <script src="bower_components/rangy/rangy-highlighter.js"></script>
-      <script src="bower_components/rangy/rangy-selectionsaverestore.js"></script>
-      <script src="bower_components/rangy/rangy-serializer.js"></script>
-      <script src="bower_components/rangy/rangy-textrange.js"></script>
-      <script src="bower_components/textAngular/dist/textAngular.js"></script>
-      <script src="bower_components/textAngular/dist/textAngular-sanitize.js"></script>
-      <script src="bower_components/textAngular/dist/textAngularSetup.js"></script>
-      <script src="bower_components/ng-file-upload/ng-file-upload.js"></script>
-      <script src="bower_components/clipboard/dist/clipboard.js"></script>
-      <script src="bower_components/ngclipboard/dist/ngclipboard.js"></script>
-      <!-- endbower -->
-    <!-- endbuild -->
-    <!-- build:js(.tmp) app/app.js -->
-      <script src="app/app.js"></script>
-      <!-- injector:js -->
-      <script src="components/auth/auth.module.js"></script>
-      <script src="app/admin/admin.module.js"></script>
-      <script src="components/factories/factory.module.js"></script>
-      <script src="components/util/util.module.js"></script>
-      <script src="app/admin/admin.controller.js"></script>
-      <script src="app/account/account.js"></script>
-      <script src="app/admin/admin.router.js"></script>
-      <script src="app/app.constant.js"></script>
-      <script src="app/dashboard/dashboard.controller.js"></script>
-      <script src="app/dashboard/dashboard.router.js"></script>
-      <script src="app/download/download.controller.js"></script>
-      <script src="app/download/download.js"></script>
-      <script src="app/main/main.controller.js"></script>
-      <script src="app/main/main.js"></script>
-      <script src="app/memo/memo.doc.controller.js"></script>
-      <script src="app/memo/memo.js"></script>
-      <script src="app/memo/memo.main.controller.js"></script>
-      <script src="app/services/Memo.service.js"></script>
-      <script src="app/services/Task-Priority.service.js"></script>
-      <script src="app/services/TimelineTasks.service.js"></script>
-      <script src="app/services/TimelineUtils.service.js"></script>
-      <script src="app/services/baseObject/baseObject.service.js"></script>
-      <script src="app/services/dashboard.service.js"></script>
-      <script src="app/services/media.service.js"></script>
-      <script src="app/services/preloader.js"></script>
-      <script src="app/services/site.service.js"></script>
-      <script src="app/services/tlQuery.service.js"></script>
-      <script src="app/site/edit-site.controller.js"></script>
-      <script src="app/site/site.controller.js"></script>
-      <script src="app/site/site.router.js"></script>
-      <script src="app/timeline/timeline.controller.js"></script>
-      <script src="app/timeline/timeline.js"></script>
-      <script src="app/timeline/timelineTask.controller.js"></script>
-      <script src="app/whiteboard/whiteboard.controller.js"></script>
-      <script src="app/whiteboard/whiteboard.js"></script>
-      <script src="components/RoomTimelineBuilder/roomTimelineBuilder.controller.js"></script>
-      <script src="components/angular-sortable.js"></script>
-      <script src="app/account/login/login.controller.js"></script>
-      <script src="components/auth/auth.service.js"></script>
-      <script src="components/auth/interceptor.service.js"></script>
-      <script src="components/auth/router.decorator.js"></script>
-      <script src="components/auth/user.service.js"></script>
-      <script src="components/baseObjAccordion/baseObjAccordion.directive.js"></script>
-      <script src="components/baseObject/baseObject.controller.js"></script>
-      <script src="components/baseObject/baseObject.directive.js"></script>
-      <script src="components/date.filter.js"></script>
-      <script src="components/digitFilter.js"></script>
-      <script src="components/directives/toggleArrow/toggleArrow.directive.js"></script>
-      <script src="app/account/settings/settings.controller.js"></script>
-      <script src="components/factories/site.factory.js"></script>
-      <script src="components/factories/timeline.factory.js"></script>
-      <script src="components/footer/footer.directive.js"></script>
-      <script src="components/masterTask/masterTaskModal.controller.js"></script>
-      <script src="components/modal/modal.service.js"></script>
-      <script src="components/mongoose-error/mongoose-error.directive.js"></script>
-      <script src="components/navbar/navbar.controller.js"></script>
-      <script src="components/navbar/navbar.directive.js"></script>
-      <script src="components/parentTask/parentTask.controller.js"></script>
-      <script src="components/reoccurringTest/reoccurringTest.controller.js"></script>
-      <script src="components/socket/socket.service.js"></script>
-      <script src="components/task-toggler/task-toggler.controller.js"></script>
-      <script src="components/task-toggler/task-toggler.js"></script>
-      <script src="components/taskGenerationModal/taskGenerationError.controller.js"></script>
-      <script src="components/taskGenerationModal/taskGenerationModal.controller.js"></script>
-      <script src="components/taskImage/taskImage.controller.js"></script>
-      <script src="components/taskTemplate/taskTemplate.directive.js"></script>
-      <script src="components/timeline-nav/timeline-nav.controller.js"></script>
-      <script src="components/timeline-nav/timeline-nav.directive.js"></script>
-      <script src="components/timelineModal/timelineModal.controller.js"></script>
-      <script src="components/timelineTask/editChildTask.controller.js"></script>
-      <script src="components/ui.bootstrap.dropdownToggle/ui.bootstrap.dropdownToggle.js"></script>
-      <script src="app/account/signup/signup.controller.js"></script>
-      <script src="components/util/util.service.js"></script>
-      <script src="components/view-toggler/view-toggler.controller.js"></script>
-      <script src="components/view-toggler/view-toggler.js"></script>
-      <!-- endinjector -->
-    <!-- endbuild -->
+    <script src="app/vendor.e9067066.js"></script>
+    <script src="app/app.6897dfb3.js"></script>
     <script src="socket.io-client/socket.io.js"></script>
 
   </body>
